@@ -31,8 +31,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 ```
-## آخرین ایدی 
+##  آخرین ایدی 
 ```bash
+ایدی بعدی آخرین کتاب 
 1000330
 ```
 
