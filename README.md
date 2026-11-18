@@ -31,6 +31,17 @@ source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env
 ```
+## آخرین ایدی 
+```bash
+1000330
+```
+
+## آخرین موضوعات 
+```bash
+ "تاریخ و جغرافیا" 
+ "سیره" 
+ "اخلاق"
+```
 
 ## اجرا
 
@@ -82,6 +93,7 @@ python -m app.main crawl-category --category "https://lib.eshia.ir/سیاسی/al
 # یا بر اساس نام دسته‌بندی
 python -m app.main crawl-category --category "سیاسی"
 python -m app.main crawl-category --category "علوم عقلی"
+python -m app.main crawl-category --category "تاریخ و جغرافیا" "سیره" "اخلاق"
 
 # یا محدود کردن به تعداد مشخصی از کتاب‌های آن دسته
 python -m app.main crawl-category --category "سیاسی" --limit 5
